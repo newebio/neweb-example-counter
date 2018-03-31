@@ -1,5 +1,5 @@
-const neweb = require("neweb-core");
-const controller = class extends neweb.Controller {
+const neweb = require("neweb");
+const controller = class extends neweb.FrameController {
     getInitialData() {
         return 0;
     }

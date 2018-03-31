@@ -1,9 +1,10 @@
 {
   "name": "neweb-example-counter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "neweb",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,7 @@
   },
   "homepage": "https://github.com/newebio/neweb-example-counter#readme",
   "dependencies": {
-    "neweb-core": "^0.4.2",
+    "neweb": "^0.5.1",
     "react": "^16.2.0"
   }
 }
