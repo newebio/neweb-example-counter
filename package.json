@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/newebio/neweb-example-counter#readme",
   "dependencies": {
-    "neweb": "^0.5.1",
-    "react": "^16.2.0"
+    "neweb": "^0.10.1",
+    "react": "^16.2.0",
+    "rxjs": "^6.1.0"
   }
 }

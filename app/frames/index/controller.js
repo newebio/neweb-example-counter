@@ -1,10 +1,9 @@
 const neweb = require("neweb");
-const controller = class extends neweb.FrameController {
-    getInitialData() {
-        return 0;
-    }
-    onInit() {
-        setInterval(() => this.emit(+ new Date()), 1000);
+const { BehaviorSubject, interval } = require("rxjs");
+const { map } = require("rxjs/operators");
+const controller = class {
+    constructor() {
+        this.data$ = interval(1000).pipe(map(() => +new Date()));
     }
 }
 module.exports = {
